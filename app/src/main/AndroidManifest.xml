@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.swchallenge">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/face_launcher1"
+        android:label="Benzinho"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Resposta"></activity>
+        <activity android:name=".Quizz" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
